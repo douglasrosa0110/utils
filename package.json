@@ -4,7 +4,8 @@
   "description": "Tools frequently used",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "git add . && git commit -m 'Update' && git push && npm version patch && npm publish --access=public"
   },
   "repository": {
     "type": "git",
