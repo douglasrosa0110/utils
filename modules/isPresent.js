@@ -1,5 +1,5 @@
 const isBlank = require('./isBlank');
 
-exports = (value) => {
+module.exports = (value) => {
   return !isBlank(value);
 }

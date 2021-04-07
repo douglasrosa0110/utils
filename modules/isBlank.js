@@ -1,4 +1,4 @@
-exports = (value) => {
+module.exports = (value) => {
   if (value){
     if (`${value}`.trim() === '') return true;
     else if (value instanceof Date && typeof value.getMonth === 'function' ) return false;
