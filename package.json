@@ -1,0 +1,23 @@
+{
+  "name": "@douglasrosa/utils",
+  "version": "1.0.0",
+  "description": "Tools frequently used",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasrosa0110/utils.git"
+  },
+  "keywords": [
+    "tools",
+    "utils"
+  ],
+  "author": "douglasrosa0110",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasrosa0110/utils/issues"
+  },
+  "homepage": "https://github.com/douglasrosa0110/utils#readme"
+}
