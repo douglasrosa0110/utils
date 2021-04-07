@@ -1,2 +1,5 @@
-exports.isBlank = require('./modules/isBlank');
-exports.isPresent = require('./modules/isPresent');
+const isBlank = require('./modules/isBlank');
+const isPresent = require('./modules/isPresent');
+
+exports.isBlank = isBlank;
+exports.isPresent = isPresent;
