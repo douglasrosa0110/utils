@@ -1,6 +1,6 @@
 {
   "name": "@douglasrosa/utils",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Tools frequently used",
   "main": "index.js",
   "scripts": {
