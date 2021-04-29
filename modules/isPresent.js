@@ -1,5 +1,4 @@
-const isBlank = require('./isBlank');
-
 module.exports = (value) => {
-  return !isBlank(value);
+  value = String(value)
+  return value.replace(/\[|\]|\'/g, '').split(',')
 }
