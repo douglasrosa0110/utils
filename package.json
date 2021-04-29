@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "git": "git add . && git commit -m 'Update' && git push",
-    "npm": "npm version patch && npm publish --access=public"
+    "npm": "npm version patch && npm publish --access=public",
+    "deploy": "yarn git && yarn npm && yarn git"
   },
   "repository": {
     "type": "git",
