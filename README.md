@@ -1,9 +1,11 @@
-# utils
 Tools for use in Javascript projects.
 
 ## install
 npm i @douglasrosa/utils
 
 ## import
-``` const { isBlank, isPresent } = require('@douglasrosa/utils') ```
-``` isPresent(undefined) ```
+``` const { <util> } = require('@douglasrosa/utils') ```
+
+```isBlank(val)```
+```isPresent(val)```
+```toArray(val)```
