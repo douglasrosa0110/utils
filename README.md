@@ -5,6 +5,10 @@ Tools for use in Javascript projects.
 > yarn add @douglasrosa/utils
 
 ## Import
+> const utils = require("@douglasrosa/utils") **OR**
+> const * as Util = require('@douglasrosa/utils') **OR**
+> import * as Util from '@douglasrosa/utils'
+
 |Function|Description                                              
 |-|-
 |`'isBlank(value)'`| Verify if value is blank

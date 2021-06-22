@@ -1,4 +1,5 @@
 module.exports = (value) => {
+  // '29004590' should return 5
   let subTotal = 0;
   let total = 0;
   let mult = 2;
