@@ -1,15 +1,14 @@
+# Util
 Tools for use in Javascript projects.
 
-## install
-npm i @douglasrosa/utils
+## Install
+> npm i @douglasrosa/utils **OR**
+> yarn add @douglasrosa/utils
 
-## import
-``` const { <util> } = require('@douglasrosa/utils') ```
-``` import { <util> } from '@douglasrosa/utils' ```
-
-Possible ```<util>```
-```isBlank(val)```
-```isPresent(val)```
-```toArray(val)```
-```mod10(val)```
-
+## Import
+|Function|Description                                              
+|-|-
+|`'isBlank(value)'`| Verify if value is blank
+|`'isPresent(value)'`| Verify if value is present
+|`'toArray(value)'`| Convert to array
+|`'mod10(value)'`| Digit verifier to use in barcode serial
