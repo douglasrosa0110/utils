@@ -15,4 +15,4 @@ Tools for use in Javascript projects.
 |`isPresent(any)`| Verify if value is present
 |`toArray(any)`| Convert to array
 |`mod10(String)`| Digit verifier to use in barcode serial
-|`cleanObject(Object)`| Digit verifier to use in barcode serial
+|`cleanObject(Object)`| Set the value of keys to null OR deletes them
