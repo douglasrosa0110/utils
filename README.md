@@ -6,12 +6,13 @@ Tools for use in Javascript projects.
 
 ## Import
 > const utils = require("@douglasrosa/utils") **OR**
-> const * as Util = require('@douglasrosa/utils') **OR**
-> import * as Util from '@douglasrosa/utils'
+> const { ... } = require('@douglasrosa/utils') **OR**
+> import { ... } from '@douglasrosa/utils'
 
 |Function|Description                                              
 |-|-
-|`'isBlank(value)'`| Verify if value is blank
-|`'isPresent(value)'`| Verify if value is present
-|`'toArray(value)'`| Convert to array
-|`'mod10(value)'`| Digit verifier to use in barcode serial
+|`isBlank(any)`| Verify if value is blank
+|`isPresent(any)`| Verify if value is present
+|`toArray(any)`| Convert to array
+|`mod10(String)`| Digit verifier to use in barcode serial
+|`cleanObject(Object)`| Digit verifier to use in barcode serial
